@@ -1,6 +1,6 @@
 from flask_restful import Resource
-from NewFlaskForHeroku.models.item import ItemModel
-from NewFlaskForHeroku.models.store import StoreModel
+from models.item import ItemModel
+from models.store import StoreModel
 
 
 class Store(Resource):

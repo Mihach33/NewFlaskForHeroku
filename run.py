@@ -1,5 +1,5 @@
-from NewFlaskForHeroku.app import app
-from NewFlaskForHeroku.db import db
+from app import app
+from db import db
 
 
 db.innit_app(app)
