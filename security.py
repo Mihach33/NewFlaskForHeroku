@@ -1,4 +1,4 @@
-from code.models.user import UserModel
+from NewFlaskForHeroku.models.user import UserModel
 
 
 def authenticate(username, password):

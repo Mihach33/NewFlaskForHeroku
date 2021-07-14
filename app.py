@@ -2,10 +2,10 @@ from flask import Flask
 from flask_restful import Api
 from flask_jwt import JWT
 
-from code.security import authenticate, identity
-from code.resources.user import UserRegister
-from code.resources.item import Item, ItemList
-from code.resources.store import Store, StoreList
+from NewFlaskForHeroku.security import authenticate, identity
+from NewFlaskForHeroku.resources.user import UserRegister
+from NewFlaskForHeroku.resources.item import Item, ItemList
+from NewFlaskForHeroku.resources.store import Store, StoreList
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'

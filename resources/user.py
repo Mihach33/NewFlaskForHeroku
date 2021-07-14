@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse
-from code.models.user import UserModel
+from NewFlaskForHeroku.models.user import UserModel
 
 
 class UserRegister(Resource):

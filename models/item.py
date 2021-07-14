@@ -1,4 +1,4 @@
-from code.db import db
+from NewFlaskForHeroku.db import db
 
 
 class ItemModel(db.Model):
